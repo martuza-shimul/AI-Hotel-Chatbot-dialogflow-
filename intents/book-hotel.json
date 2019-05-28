@@ -1,0 +1,51 @@
+{
+  "id": "b68c939f-9c51-456f-9ec2-248edd7c1074",
+  "name": "book-hotel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "bh-date",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You can select or type below",
+          "replies": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When do you want to check-in?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "hangouts": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "909f703f-9d12-4599-a73c-28ff4994fc68",
+  "name": "check-room-deluxe-details",
+  "auto": true,
+  "contexts": [
+    "cr-room-details"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You may like to check these rooms",
+          "replies": [
+            "Economy Details",
+            "Luxury Details",
+            "Queen Suite Details",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Private bathroom (bath or shower)\n\nHair dryer\n\nWater boiler\n\nDesk\n\nAir conditioning and heating\n\nTV\n\nFree WIFI\n\nPhone"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "hangouts": true,
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

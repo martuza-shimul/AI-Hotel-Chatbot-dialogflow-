@@ -1,0 +1,35 @@
+[
+  {
+    "id": "114faa68-2fb2-4cdd-9435-a234fab577d6",
+    "data": [
+      {
+        "text": "Is there wifi?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4e8cb3b6-a152-4934-8a9c-eddd53860ef6",
+    "data": [
+      {
+        "text": "is there any internet connection?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c3b76a2f-1b71-4d60-9cd1-6713797780fb",
+    "data": [
+      {
+        "text": "Internet connection?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

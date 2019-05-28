@@ -1,0 +1,41 @@
+[
+  {
+    "id": "3192a595-bdd1-479f-bc50-d48742f6a816",
+    "data": [
+      {
+        "text": "after 2 days",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "26d86f28-8843-4f07-9823-a340e034a30a",
+    "data": [
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a2fe34bf-f916-480a-9256-6944a3629e0a",
+    "data": [
+      {
+        "text": "Today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

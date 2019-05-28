@@ -1,0 +1,58 @@
+{
+  "id": "79755b16-f640-4b78-9411-8cec87782a01",
+  "name": "excursion-reservation-theater-book",
+  "auto": true,
+  "contexts": [
+    "er-theater-booking"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "er-theater-ticket",
+      "affectedContexts": [
+        {
+          "name": "er-t-ticket-date",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "24e47984-b3f4-442a-9e72-7a0e570fe4a9",
+          "required": false,
+          "dataType": "@theater-shows",
+          "name": "theater-shows",
+          "value": "$theater-shows",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You can type or select",
+          "replies": [
+            "Today",
+            "Tomorrow",
+            "Next Sunday"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When do you want to book a ticket?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

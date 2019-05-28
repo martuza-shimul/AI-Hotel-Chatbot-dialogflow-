@@ -1,0 +1,95 @@
+{
+  "id": "7d98ce7c-e859-486a-9c7e-8734c21d1e23",
+  "name": "book-hotel-details",
+  "auto": true,
+  "contexts": [
+    "bh-room_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bh_room_type",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a4a6f2b0-c2df-460d-a2bc-9e93eedfafeb",
+          "required": false,
+          "dataType": "@hotel-room-type",
+          "name": "hotel-room-type",
+          "value": "$hotel-room-type",
+          "isList": false
+        },
+        {
+          "id": "a57c0938-6e7d-452b-a48a-aa13c2b9018a",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "bh-contact-name",
+          "value": "$bh-contact-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you help me with your good name to proceed?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a3faa201-3af9-4712-8acd-2a26d175d93a",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "bh-contact-email",
+          "value": "$bh-contact-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And the email to reach?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "94bd4f4c-67f9-4275-9865-d64a945c4d72",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "bh-contact-phone",
+          "value": "$bh-contact-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, the phone number to contact"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Check rooms",
+            "Nearby Places",
+            "Guest Request",
+            "Guest Complaint"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic $bh-contact-name .\nYou have booked $hotel-room-type room for #bh-people.number-of-people Adult(s) ."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

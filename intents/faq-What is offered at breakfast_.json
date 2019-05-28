@@ -1,0 +1,41 @@
+{
+  "id": "c6ff13a1-ba11-4d71-8912-1d4fe5490f9a",
+  "name": "faq-What is offered at breakfast?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The buffet breakfast includes a selection of croissants, charcuterie, cheeses, eggs and bacon"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

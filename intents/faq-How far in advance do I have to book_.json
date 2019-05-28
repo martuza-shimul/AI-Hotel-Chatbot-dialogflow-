@@ -1,0 +1,41 @@
+{
+  "id": "ee5ab123-be1f-4d75-b5b4-669c79825da3",
+  "name": "faq-How far in advance do I have to book?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Excursion Services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As soon as you have planned your trip! We sometimes have last-minute availability, but in general the earlier you book, the lower the room rate."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

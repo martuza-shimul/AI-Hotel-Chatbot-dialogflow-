@@ -1,0 +1,159 @@
+[
+  {
+    "id": "0199b315-3888-4927-aa03-b2b2286a32fd",
+    "data": [
+      {
+        "text": "I want to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "low cost",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7445ece6-618b-4091-9cfa-75ff44f1bb3f",
+    "data": [
+      {
+        "text": "Luxury",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3721f40d-cd14-4fb8-961e-6c228aee8a25",
+    "data": [
+      {
+        "text": "may I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "luxury",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3069679c-bb29-462f-bf8a-13e1d7f0a908",
+    "data": [
+      {
+        "text": "I want to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "low-cost",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "427b5e59-ace1-4a26-8600-4330076600de",
+    "data": [
+      {
+        "text": "may I book a ",
+        "userDefined": false
+      },
+      {
+        "text": "beautiful",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "948965eb-045e-46b3-98d8-e5812bd09d90",
+    "data": [
+      {
+        "text": "deluxe",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "77e7712f-b303-4f1c-8483-c179cd6792c5",
+    "data": [
+      {
+        "text": "Can I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "deluxe",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8864b14c-bdb0-4bb4-9ad7-984d5381ea44",
+    "data": [
+      {
+        "text": "Queen suite",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "19faf561-2905-49d6-957f-da660c6fdf42",
+    "data": [
+      {
+        "text": "economy",
+        "alias": "hotel-room-type",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

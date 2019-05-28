@@ -1,0 +1,54 @@
+{
+  "id": "f0906fb4-5b18-4ca7-b4c4-389e3e244df6",
+  "name": "excursion-reservation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "excursion",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "We Offer 3 Excursion reservation",
+          "subtitle": "Click below button to proceed",
+          "buttons": [
+            {
+              "text": "Taxi",
+              "postback": "taxi"
+            },
+            {
+              "text": "Theater Ticket",
+              "postback": "theater ticket"
+            },
+            {
+              "text": "Restaurant",
+              "postback": "restaurant"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "6809d10d-3966-441f-be66-80796c9025cb",
+  "name": "faq-Is it possible to have a cot/child’s bed in the room? If so, at what price?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places",
+            "Excursion Services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, cots and children’s beds are available at additional cost of £ 20 per night."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

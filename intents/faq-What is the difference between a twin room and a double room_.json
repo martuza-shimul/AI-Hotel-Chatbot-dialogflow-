@@ -1,0 +1,41 @@
+{
+  "id": "5f366628-ad54-44ff-86d3-6786e8cace8c",
+  "name": "faq-What is the difference between a twin room and a double room?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A twin room has two single beds, whereas a double room has one double bed"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

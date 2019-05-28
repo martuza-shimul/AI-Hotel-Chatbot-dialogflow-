@@ -1,0 +1,89 @@
+{
+  "id": "0814b66f-34cf-4ce7-9b1f-1d325d02301a",
+  "parentId": "876997de-ce8e-4a42-bfca-9eade3795662",
+  "rootParentId": "3698effa-ab29-4c35-819c-3dd308180798",
+  "name": "excursion-reservation-taxi - date - details",
+  "auto": true,
+  "contexts": [
+    "er-taxi-time",
+    "excursion-reservation-taxi-date-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "excursion-reservation-taxi.excursion-reservation-taxi-details.excursion-reservation-taxi-date-time",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d249e807-9728-4367-8fcc-66b6f3f94bb4",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "er-taxi-time",
+          "value": "$er-taxi-time",
+          "isList": false
+        },
+        {
+          "id": "e211b41e-e54d-4a9c-aa5a-0be903b34e37",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-taxi-name",
+          "value": "$er-taxi-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Fantastic! Please provide me your name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a3436ba7-889a-4406-9adc-c956410544d4",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-taxi-room",
+          "value": "$er-taxi-room",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, your Room number?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Restaurant",
+            "Theater Ticket",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your Booking is confirmed!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your taxi will come to the pick-up point on time"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

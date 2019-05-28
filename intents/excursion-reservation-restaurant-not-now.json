@@ -1,0 +1,41 @@
+{
+  "id": "3be45c90-ae1d-4758-a9e3-a4c1c72792c9",
+  "name": "excursion-reservation-restaurant-not-now",
+  "auto": true,
+  "contexts": [
+    "er-restaurant-confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Taxi",
+            "Theater Tickets"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "No Problem, get back to me if you change your mind."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

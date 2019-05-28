@@ -1,0 +1,105 @@
+[
+  {
+    "id": "e6f8b4ba-138d-465e-b492-77e07b2f6dd0",
+    "data": [
+      {
+        "text": "tuesday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ee6cc87-202e-4dfc-9bf8-b11d8c2bc223",
+    "data": [
+      {
+        "text": "sunday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a326ddfc-d5c7-4981-afab-6b73e2d8205b",
+    "data": [
+      {
+        "text": "may I get a room ",
+        "userDefined": false
+      },
+      {
+        "text": "on Thursday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cfc93f2f-3380-4997-b6dd-03b254a0ee53",
+    "data": [
+      {
+        "text": "monday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5f312359-155d-4d68-ae2d-f212aa5b61cd",
+    "data": [
+      {
+        "text": "I want to book a hotel ",
+        "userDefined": false
+      },
+      {
+        "text": "on Friday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a40891ce-3936-4272-ad9b-d783d7b68985",
+    "data": [
+      {
+        "text": "can i book a room ",
+        "userDefined": false
+      },
+      {
+        "text": "on friday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5eee2b4b-d86d-4911-bb79-ed96828e34a6",
+    "data": [
+      {
+        "text": "saturday",
+        "alias": "book-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

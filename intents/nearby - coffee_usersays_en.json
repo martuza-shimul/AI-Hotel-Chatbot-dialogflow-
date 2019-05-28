@@ -1,0 +1,59 @@
+[
+  {
+    "id": "43bb0cfc-16f6-4b26-9837-d364aa1f3d87",
+    "data": [
+      {
+        "text": "Coffee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0aa96031-2c91-4ac9-b48c-3b40e125c853",
+    "data": [
+      {
+        "text": "Nearby coffee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e0264a8-bb24-4723-8488-cc31d8b48bd2",
+    "data": [
+      {
+        "text": "nearby coffeshop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "26e2bc24-ae35-4480-b3c3-fb7b46b67cdf",
+    "data": [
+      {
+        "text": "nearby coffee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "10ca6c28-ae1c-4208-af44-ab00bd7bca76",
+    "data": [
+      {
+        "text": "coffee",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

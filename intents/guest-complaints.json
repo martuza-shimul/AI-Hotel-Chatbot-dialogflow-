@@ -1,0 +1,92 @@
+{
+  "id": "5239271a-c2d1-4fd9-b9c5-fbb6d4b36b3e",
+  "name": "guest-complaints",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "guest-complaints",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6e47da91-e1f5-4a58-8afe-5d1a6ddb1481",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "complaint",
+          "value": "$complaint",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please write your problem in details below"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "29e576e5-732a-4096-8524-61991e4d9f99",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "gc-room-number",
+          "value": "$gc-room-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your Room Number"
+            },
+            {
+              "lang": "en",
+              "value": "Can you help me with your Room Number?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e1b3b449-77d9-47ad-a6f4-d8e98e9804af",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "gc-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your name that I can verify this with the Register"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "`Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thank you for letting us know."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I will pass this to our management right now to fix the problem"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,85 @@
+{
+  "id": "7cae3f04-7594-4f57-9032-c40032859e10",
+  "name": "excursion-reservation-restaurant-details",
+  "auto": true,
+  "contexts": [
+    "er-res-book-people"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "er-res-b-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "661c026f-6a7d-4c9a-ba4e-acc0873502df",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "er-b-p-number",
+          "value": "$er-b-p-number",
+          "isList": false
+        },
+        {
+          "id": "0a8fe049-e31f-4db5-9217-62af85456f05",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-b-name",
+          "value": "$er-b-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Okay, write your name to continue the process"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "82eb0031-70e0-4fdc-ba89-23a77c757923",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-b-room",
+          "value": "$er-b-room",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, your Room Number?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Taxi",
+            "Theater Ticket",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Just ask the reception for your reservation when you reached to the Restaurant."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

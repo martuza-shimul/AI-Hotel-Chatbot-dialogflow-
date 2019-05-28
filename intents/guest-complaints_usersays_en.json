@@ -1,0 +1,101 @@
+[
+  {
+    "id": "d1148567-82c7-46f5-9b21-94097fd7ce3a",
+    "data": [
+      {
+        "text": "guest-complaints",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7b7e9f9b-3b8d-4821-bb8f-8324ca2c2f7c",
+    "data": [
+      {
+        "text": "guest-complaint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "139871cb-3109-454e-931e-227b84fdf175",
+    "data": [
+      {
+        "text": "guest complaints",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8c47f95e-417d-4458-ab73-b0fee1488f26",
+    "data": [
+      {
+        "text": "guest complaint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0c872737-f0ff-4a6a-b3a3-50d403c8bcf4",
+    "data": [
+      {
+        "text": "complaints",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c230b0a0-35d6-4bbf-9bf1-f7fb8667452d",
+    "data": [
+      {
+        "text": "complaint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "885a634a-5d15-4b83-89b5-6830aec6ba14",
+    "data": [
+      {
+        "text": "report problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9c81891c-7cb2-47fa-b75f-f963cfc614a9",
+    "data": [
+      {
+        "text": "report a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "13336f6c-088c-43c8-9f6f-ffdc00497dbe",
+    "data": [
+      {
+        "text": "report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

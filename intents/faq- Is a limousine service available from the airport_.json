@@ -1,0 +1,41 @@
+{
+  "id": "f7596bd7-eb70-44d1-8d3f-e51af25cb4e0",
+  "name": "faq- Is a limousine service available from the airport?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, this service is available on request. When booking this service, please state the flight number for your arrival and/or departure and the relevant times. The cost of the service depends on which airport you are arriving at or departing from."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

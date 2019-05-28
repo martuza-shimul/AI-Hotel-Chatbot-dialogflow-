@@ -1,0 +1,41 @@
+{
+  "id": "d80ce5da-9e86-4ddc-97fb-aa622f0e381c",
+  "name": "faq-Do the bathrooms have baths or showers?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Most of the rooms have shower. The bath tub is available at reservation time."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

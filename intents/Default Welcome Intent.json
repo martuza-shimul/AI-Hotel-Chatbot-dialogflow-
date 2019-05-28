@@ -1,0 +1,85 @@
+{
+  "id": "220f3fd3-f348-40d4-81d6-34439188235f",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "welcome",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi! I\u0027m Jack, your AI assistant. I can help you with below services"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Available Services",
+          "subtitle": "Click on a button to proceed",
+          "imageUrl": "https://techcrunch.com/wp-content/uploads/2017/12/fin-hybrid-assistant.png?w\u003d730\u0026crop\u003d1",
+          "buttons": [
+            {
+              "text": "Room Booking",
+              "postback": "Room Booking"
+            },
+            {
+              "text": "Check Rooms",
+              "postback": "Check Rooms"
+            },
+            {
+              "text": "Near-by Places",
+              "postback": "nearby place"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Type \"View more\" for other services",
+          "replies": [
+            "View More"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ]
+}

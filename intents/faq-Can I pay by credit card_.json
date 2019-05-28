@@ -1,0 +1,41 @@
+{
+  "id": "acc65d0c-14d8-4a11-a177-07188be957e2",
+  "name": "faq-Can I pay by credit card?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Excursion Services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, we accept Visa, MasterCard, JCB, American Express and Diners Club cards."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

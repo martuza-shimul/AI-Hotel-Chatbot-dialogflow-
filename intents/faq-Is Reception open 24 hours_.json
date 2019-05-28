@@ -1,0 +1,41 @@
+{
+  "id": "61a35df1-dfb4-4cd3-920b-60daf375cf75",
+  "name": "faq-Is Reception open 24 hours?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places",
+            "Excursion Booking"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, Reception service is available 24 hours."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

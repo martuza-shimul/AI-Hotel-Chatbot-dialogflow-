@@ -1,0 +1,41 @@
+{
+  "id": "c8165a9d-c83f-4f34-966f-9a652f49fba9",
+  "name": "faq-How many floors does the hotel have?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Excursion services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The hotel has five floors in all."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

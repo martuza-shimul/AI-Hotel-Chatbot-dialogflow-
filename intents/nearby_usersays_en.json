@@ -1,0 +1,90 @@
+[
+  {
+    "id": "f176bd99-f183-4352-b070-8f7aaac17336",
+    "data": [
+      {
+        "text": "I want to check nearby places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8888529c-da76-455b-8b1d-2313c95d57d4",
+    "data": [
+      {
+        "text": "check nearby places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ea87d599-87d9-4db3-bbca-29a3b119641f",
+    "data": [
+      {
+        "text": "I want to see the nearby places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ed4f094d-c513-46c4-ad95-675e271fea1f",
+    "data": [
+      {
+        "text": "may I see the nearby places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d32b3925-a4db-4ff1-a0cf-fa68615851a3",
+    "data": [
+      {
+        "text": "can you show me the nearby places?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5c001209-2a08-477b-bee9-d2c5f0c8623d",
+    "data": [
+      {
+        "text": "nearby places",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ecb1ab6e-d188-4fd7-91f5-b8daf7c5593c",
+    "data": [
+      {
+        "text": "nearby place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "abf8ae76-1473-47ca-b11f-cc6629b7761f",
+    "data": [
+      {
+        "text": "nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

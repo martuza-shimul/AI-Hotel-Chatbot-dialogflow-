@@ -1,0 +1,88 @@
+{
+  "id": "3d6a7649-6a2e-47bf-82dd-4fafdee4afb1",
+  "name": "excursion-reservation-theater-book-details",
+  "auto": true,
+  "contexts": [
+    "er-t-ticket-cat"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "er-theater-ticket-category",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7e3a9f78-2eae-450f-81b4-4926f11f2de5",
+          "required": false,
+          "dataType": "@theater-ticket-category",
+          "name": "theater-ticket-category",
+          "value": "$theater-ticket-category",
+          "isList": false
+        },
+        {
+          "id": "bf8a967d-eff1-455a-92bd-7acdbd93a9d9",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-t-ticket-name",
+          "value": "$er-t-ticket-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Type your name to proceed"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dfadece3-4308-4bda-b5d9-1b7c70632ffe",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "er-t-ticket-room",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, the Room Number?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Taxi",
+            "Restaurant",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool! Your ticket has been booked for 1 hour."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please confirm the payment for completing the booking."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We\u0027ll send the payment invoice through email."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

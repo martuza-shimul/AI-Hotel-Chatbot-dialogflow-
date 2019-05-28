@@ -1,0 +1,28 @@
+[
+  {
+    "id": "83d02de8-6052-464e-bf59-9d862bdf53e0",
+    "data": [
+      {
+        "text": "5 AM",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "16353c70-03e3-48b5-9754-4b74bfa75aed",
+    "data": [
+      {
+        "text": "4 am",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

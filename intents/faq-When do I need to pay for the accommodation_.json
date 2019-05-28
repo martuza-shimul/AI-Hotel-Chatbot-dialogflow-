@@ -1,0 +1,41 @@
+{
+  "id": "82661f68-977d-4487-81a3-cf269d3849d9",
+  "name": "faq-When do I need to pay for the accommodation?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Excursion Services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Payment of any outstanding balance is made when you check out, but payment must be guaranteed when you check in, unless agreed otherwise on the basis of the applicable rates."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

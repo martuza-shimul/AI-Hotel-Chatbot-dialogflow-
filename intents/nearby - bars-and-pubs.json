@@ -1,0 +1,41 @@
+{
+  "id": "095edb77-c15f-42cf-84ce-9a78fae11311",
+  "parentId": "e98da711-8051-47bc-8ae6-6a74c932f697",
+  "rootParentId": "e98da711-8051-47bc-8ae6-6a74c932f697",
+  "name": "nearby - bars-and-pubs",
+  "auto": true,
+  "contexts": [
+    "nearby-followup",
+    "nearby"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nearby.nearby-bar",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some nearby Bars \u0026 Pubs"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Symposium - 0.2 KM\nThe Victoria - 0.5 KM\nEleanor Arms - 0.6 KM\nThe Morgan Arms - 0.8 KM\nNOLA - 1 KM"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

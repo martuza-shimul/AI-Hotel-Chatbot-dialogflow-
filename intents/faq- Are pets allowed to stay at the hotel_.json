@@ -1,0 +1,41 @@
+{
+  "id": "4891f7a0-6e91-4f77-bfa2-c1aa5a8382d7",
+  "name": "faq- Are pets allowed to stay at the hotel?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places",
+            "Excursion Services"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes, pets are most welcome. There is a daily charge of £ 10"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

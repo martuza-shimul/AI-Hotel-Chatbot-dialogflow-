@@ -1,0 +1,36 @@
+{
+  "id": "26abe4cc-4784-4bd4-94b2-c5f6560f9ed4",
+  "name": "live-agent-transfer",
+  "auto": true,
+  "contexts": [
+    "fallback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great. Give us a moment to find a team member to help you."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hi I\u0027m Daisy, how can I help you? Please reply to this message with your request and I\u0027ll respond to you as soon as possible."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

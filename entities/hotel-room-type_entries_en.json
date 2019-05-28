@@ -1,0 +1,31 @@
+[
+  {
+    "value": "Queen Suite",
+    "synonyms": [
+      "queen suite",
+      "beautiful"
+    ]
+  },
+  {
+    "value": "Luxury",
+    "synonyms": [
+      "luxury",
+      "high-end"
+    ]
+  },
+  {
+    "value": "Deluxe",
+    "synonyms": [
+      "deluxe",
+      "average cost"
+    ]
+  },
+  {
+    "value": "Economy",
+    "synonyms": [
+      "economy",
+      "low cost",
+      "minimum"
+    ]
+  }
+]

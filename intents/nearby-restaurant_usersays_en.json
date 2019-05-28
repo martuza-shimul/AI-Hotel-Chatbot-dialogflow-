@@ -1,0 +1,24 @@
+[
+  {
+    "id": "b3494882-8ac9-4939-9353-3905dba5ddf8",
+    "data": [
+      {
+        "text": "Restaurants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "05cdebf5-b9fc-4758-b105-782233541e32",
+    "data": [
+      {
+        "text": "Restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

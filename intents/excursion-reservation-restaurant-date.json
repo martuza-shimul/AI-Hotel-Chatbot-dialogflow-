@@ -1,0 +1,60 @@
+{
+  "id": "5501daff-b2b7-4e06-a9a2-0f5aeee05a2d",
+  "name": "excursion-reservation-restaurant-date",
+  "auto": true,
+  "contexts": [
+    "er-restaurant-book-date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "er-res-b-date",
+      "affectedContexts": [
+        {
+          "name": "er-restaurant-book-time",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "99e4e8c5-8dd8-4c29-85d3-2f204e0338ca",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Pick a time between 9 to 9",
+          "replies": [
+            "9 AM",
+            "10 AM",
+            "11 AM",
+            "1 PM",
+            "3 PM",
+            "5 PM",
+            "7 PM"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Pick a time between 9 to 9"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

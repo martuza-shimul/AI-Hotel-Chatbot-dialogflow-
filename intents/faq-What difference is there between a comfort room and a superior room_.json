@@ -1,0 +1,40 @@
+{
+  "id": "eaa22796-10bc-494c-ac20-277cb0aff937",
+  "name": "faq-What difference is there between a comfort room and a superior room?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The decor is the same, but the superior rooms are larger."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

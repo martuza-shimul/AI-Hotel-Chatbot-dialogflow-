@@ -1,0 +1,60 @@
+{
+  "id": "053dd1ae-4a6b-47d3-b64a-728cef717152",
+  "name": "Guest-request",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "guest-request",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "If you\u0027re a guest of ours then you can request below things to the Concierge"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Guest Request",
+          "buttons": [
+            {
+              "text": "More Towel",
+              "postback": "More Towels"
+            },
+            {
+              "text": "Wake-up Calls",
+              "postback": "Wake up calls"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If you\u0027re a guest of ours then you can request below things to the Concierge"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "More Towels\n\nWake-up Calls"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

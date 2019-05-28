@@ -1,0 +1,49 @@
+{
+  "id": "da91cee6-2863-4a6a-ab03-7c288f2deab7",
+  "name": "nearby - coffee",
+  "auto": true,
+  "contexts": [
+    "nearby"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nearby.nearby-coffee",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You may like to check",
+          "replies": [
+            "Restaurant",
+            "Tourist Attraction",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some nearby Coffee shop"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Mae + Harvey - 48 M\n\nHiLAND Cafe - 110 M\n\nZealand Road Coffee shop London - 120 M\n\nSymposium - 220 M\n\nMono London - 1.2 KM"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ce18f5ee-96ba-4d46-8032-c4649d873019",
+  "name": "check-room-booking",
+  "auto": true,
+  "contexts": [
+    "cr-rome-types"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "check-room-type",
+      "affectedContexts": [
+        {
+          "name": "cr-date",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "556211d9-9f49-4979-a60e-40c7bf6a76b2",
+          "required": false,
+          "dataType": "@hotel-room-type",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Type below or select here",
+          "replies": [
+            "Saturday",
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When do you want to check in?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

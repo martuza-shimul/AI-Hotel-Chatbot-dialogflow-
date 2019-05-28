@@ -1,0 +1,100 @@
+{
+  "id": "894f3df3-5a3c-4d63-a4da-328ca6aed48b",
+  "name": "check-room-details",
+  "auto": true,
+  "contexts": [
+    "cr-people"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cr-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "64d30995-133d-45d2-b863-17494a6c8893",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number-of-people",
+          "value": "$number-of-people",
+          "isList": false
+        },
+        {
+          "id": "34477903-dcf7-4ec8-89ad-577d8ff3e9a7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cr-name",
+          "value": "$cr-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you help me with your good name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5051ef1a-4eeb-4008-8d8e-92af5bd8813a",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "cr-email",
+          "value": "$cr-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And the email?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "df1007b2-e175-4910-bb63-63d81eeb023e",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "cr-phone",
+          "value": "$cr-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Lastly, the contact number?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "We\u0027ll send you the payment link through email. The link and Booking will  be expired in one hour if you don\u0027t complete the payment"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Nearby Places",
+            "Excursion Booking",
+            "Guest Request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic $cr-name  !\n\nYou have completed the booking for $number-of-people people."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

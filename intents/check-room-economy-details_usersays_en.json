@@ -1,0 +1,18 @@
+[
+  {
+    "id": "250b24d2-88db-4be1-a595-c73c9935889d",
+    "data": [
+      {
+        "text": "Economy",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

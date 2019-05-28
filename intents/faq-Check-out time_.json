@@ -1,0 +1,40 @@
+{
+  "id": "4be70def-97f0-4f1d-8485-52193cd5c947",
+  "name": "faq-Check-out time?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As a rough guide, the check-out time is before 12pm. If you plan a late check out kindly let us know your departure time, we’ll our best to satisfy your needs."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

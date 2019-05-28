@@ -1,0 +1,61 @@
+{
+  "id": "e98da711-8051-47bc-8ae6-6a74c932f697",
+  "name": "nearby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nearby",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "nearby-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "I can help you in 3 categories:",
+          "subtitle": "Click one to proceed",
+          "buttons": [
+            {
+              "text": "Restaurant",
+              "postback": "Restaurant"
+            },
+            {
+              "text": "Coffee",
+              "postback": "Coffee"
+            },
+            {
+              "text": "Tourist Attraction",
+              "postback": "Tourist Attraction"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I can help you in 3 categories:\n1. Restaurant\n2. Coffee\n3. Tourist Attraction"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

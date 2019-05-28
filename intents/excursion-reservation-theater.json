@@ -1,0 +1,79 @@
+{
+  "id": "8eda6873-20fc-40cb-8d0e-f372278f5e2a",
+  "name": "excursion-reservation-theater",
+  "auto": true,
+  "contexts": [
+    "excursion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "er-theater-booking",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "HAMILTON",
+          "subtitle": "Victoria Palace Theater-7 PM",
+          "imageUrl": "https://www.delfontmackintosh.co.uk/images/shows/hamilton/hamilton.jpg",
+          "buttons": [
+            {
+              "text": "Buy Ticket",
+              "postback": "Hamilton"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Les Miserables",
+          "subtitle": "Queen\u0027s Theater-7:30 PM",
+          "imageUrl": "https://www.delfontmackintosh.co.uk/images/shows/les-miserables/les-miserables.jpg",
+          "buttons": [
+            {
+              "text": "Buy Ticket",
+              "postback": "Les Miserables"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "MARY POPPINS",
+          "subtitle": "Prince Edward Theater-6:30 PM",
+          "imageUrl": "https://www.delfontmackintosh.co.uk/images/shows/mary-poppins/mary-poppins.jpg",
+          "buttons": [
+            {
+              "text": "Buy Ticket",
+              "postback": "MARY POPPINS"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Available Theaters"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

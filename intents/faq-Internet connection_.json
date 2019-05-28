@@ -1,0 +1,46 @@
+{
+  "id": "39cd264a-90e8-41bd-873d-79bf89233443",
+  "name": "faq-Internet connection?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Nearby Places",
+            "Guest request"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "A wireless internet connection is available throughout the hotel."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The guest rooms feature hi-speed web connectivity (both wireless and cabled)."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

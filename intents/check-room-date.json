@@ -1,0 +1,60 @@
+{
+  "id": "0133f967-b536-4498-be4a-1f81c71897a9",
+  "name": "check-room-date",
+  "auto": true,
+  "contexts": [
+    "cr-date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cr-date",
+      "affectedContexts": [
+        {
+          "name": "cr-night",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d6b9765f-c60a-4d98-a9af-75af5c8c754e",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "How many nights you want to stay?",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

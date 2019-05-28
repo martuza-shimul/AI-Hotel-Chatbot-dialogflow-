@@ -1,0 +1,41 @@
+[
+  {
+    "id": "c14fdd1b-5716-4183-858d-ed2737c0d311",
+    "data": [
+      {
+        "text": "next sunday",
+        "alias": "theater-ticket-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6461ddcb-b0ca-4481-b21c-c4bfedfad031",
+    "data": [
+      {
+        "text": "tomorrow",
+        "alias": "theater-ticket-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "75b079c8-a06c-4584-a644-5ae6fd5035ba",
+    "data": [
+      {
+        "text": "today",
+        "alias": "theater-ticket-date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

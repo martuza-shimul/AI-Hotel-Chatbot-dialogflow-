@@ -1,0 +1,58 @@
+{
+  "id": "33091e58-a739-44a9-b775-4fb9f2cb3998",
+  "name": "excursion-reservation-theater-book-date",
+  "auto": true,
+  "contexts": [
+    "er-t-ticket-date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "er-t-ticket-date",
+      "affectedContexts": [
+        {
+          "name": "er-t-ticket-cat",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fb212c43-66b6-4a9d-a599-3dbc10e5f239",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "theater-ticket-date",
+          "value": "$theater-ticket-date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose one to proceed",
+          "replies": [
+            "Stalls-£114",
+            "Upper Circle-£89",
+            "Stands-£63"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Which category of ticket you prefer?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

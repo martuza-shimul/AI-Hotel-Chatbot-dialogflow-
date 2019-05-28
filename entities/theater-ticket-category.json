@@ -1,0 +1,9 @@
+{
+  "id": "199ead4b-b9fa-4bbb-9039-8a6816da273b",
+  "name": "theater-ticket-category",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

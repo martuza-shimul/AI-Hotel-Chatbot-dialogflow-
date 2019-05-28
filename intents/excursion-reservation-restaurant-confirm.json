@@ -1,0 +1,45 @@
+{
+  "id": "5223d65e-f699-4c84-a8ac-7745bc43bf32",
+  "name": "excursion-reservation-restaurant-confirm",
+  "auto": true,
+  "contexts": [
+    "er-restaurant-confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "er-restaurant-book-date",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "When you would like to book for?",
+          "replies": [
+            "Today",
+            "Tomorrow"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When you would like to book for?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

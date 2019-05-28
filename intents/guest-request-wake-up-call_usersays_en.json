@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d4bc99cd-a5a2-4e94-8c3c-351f97d31705",
+    "data": [
+      {
+        "text": "wake-up call",
+        "alias": "guest-request",
+        "meta": "@guest-request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "9d6f8834-abf3-40ec-a94b-90c494711b66",
+    "data": [
+      {
+        "text": "wake up calls",
+        "alias": "guest-request",
+        "meta": "@guest-request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e5bc4e7d-1035-46ab-8651-5094527a9954",
+    "data": [
+      {
+        "text": "wake up call",
+        "alias": "guest-request",
+        "meta": "@guest-request",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

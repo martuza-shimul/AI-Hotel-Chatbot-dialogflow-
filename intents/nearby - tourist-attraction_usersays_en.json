@@ -1,0 +1,35 @@
+[
+  {
+    "id": "57037b47-775f-4bfe-b174-b5da00a08f1c",
+    "data": [
+      {
+        "text": "Tourist places nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3c78766e-9a3b-4f83-bcad-3fa18e52af6a",
+    "data": [
+      {
+        "text": "Tourist Attraction place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7c2e3556-4fef-437f-98a1-2e78171f8ee0",
+    "data": [
+      {
+        "text": "Tourist Attraction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

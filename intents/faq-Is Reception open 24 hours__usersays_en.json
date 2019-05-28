@@ -1,0 +1,22 @@
+[
+  {
+    "id": "28e53de5-f057-42eb-b2d6-d1596bba4995",
+    "data": [
+      {
+        "text": "Is Reception open ",
+        "userDefined": false
+      },
+      {
+        "text": "24 hours",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

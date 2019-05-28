@@ -1,0 +1,61 @@
+{
+  "id": "dd11059c-450f-4b7d-94ec-22fa078f0f2a",
+  "name": "book-hotel-date",
+  "auto": true,
+  "contexts": [
+    "bh-date"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bh-date",
+      "affectedContexts": [
+        {
+          "name": "bh-people",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "83bb0e70-e090-4dfc-9a28-b8e750e72eb0",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "book-date",
+          "value": "$book-date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "For how many Adults?",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For how many Adults?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false,
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

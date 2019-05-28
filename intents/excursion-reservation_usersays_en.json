@@ -1,0 +1,101 @@
+[
+  {
+    "id": "b5cd20d4-8f59-4422-924c-3cd5b2000bc8",
+    "data": [
+      {
+        "text": "can I reserve an excursion service?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8c29ace8-c090-4243-8af5-03b12a8d4a09",
+    "data": [
+      {
+        "text": "can I book an excursion service?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "af675a21-720b-4daa-a76d-5bdd331a9024",
+    "data": [
+      {
+        "text": "I want to reserve an excursion service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "815815ce-6901-4081-8b7d-ac54602ab7ba",
+    "data": [
+      {
+        "text": "excursion-reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "abd81c73-ac2d-481d-823c-b018ff00fd4b",
+    "data": [
+      {
+        "text": "external booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "28cc21f4-27ef-46c3-a809-40de7fefa7bf",
+    "data": [
+      {
+        "text": "excursion booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cdf73a56-41fe-4268-b42b-666d88796a55",
+    "data": [
+      {
+        "text": "excursion reserve",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "35dcb9ab-c0cf-4475-b645-886739138537",
+    "data": [
+      {
+        "text": "External reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1adc7605-67e8-496d-8937-73fa36492bc0",
+    "data": [
+      {
+        "text": "excursion reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "d4c895ab-229c-4a29-ae14-efc2d14f1e64",
+  "name": "faq-Which languages are spoken at Reception?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Near-by Places"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Italian, English, French, German and Spanish."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

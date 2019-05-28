@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cd21506b-d9a5-4866-a301-ad3e41e6784b",
+    "data": [
+      {
+        "text": "Pub",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7e168ab5-db93-44aa-b6b9-e515b6747fd9",
+    "data": [
+      {
+        "text": "bar\u0027",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2bea9e07-1881-410f-bbac-909aa120c6aa",
+    "data": [
+      {
+        "text": "Pubs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a60a8230-51ca-493a-9281-82108303d6f7",
+    "data": [
+      {
+        "text": "Bars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb72f9ed-8ce8-4654-ac41-a2ecb4d6c3f0",
+    "data": [
+      {
+        "text": "Bars and Pubs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "88fe7502-4669-4611-8715-109bf64cb03a",
+    "data": [
+      {
+        "text": "Bars \u0026 Pubs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "id": "13a4ecfd-1b53-475e-8a62-f6c5714b8c9e",
+  "name": "faq-What time is breakfast served?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check Rooms",
+            "Near by Places",
+            "Excursion Booking"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Breakfast is served from 7am to 10am, every day."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

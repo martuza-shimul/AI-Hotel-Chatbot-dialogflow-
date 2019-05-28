@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aa402feb-09a0-47d4-8df3-02d5d6dc3486",
+    "data": [
+      {
+        "text": "Sunday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "188df94a-7bbe-4f3b-b071-a9ad9d252a59",
+    "data": [
+      {
+        "text": "next sunday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a210461d-370d-4f41-8c63-0698bad37a04",
+    "data": [
+      {
+        "text": "next friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0d7ca977-1bad-4708-80c8-4bab99387e6b",
+    "data": [
+      {
+        "text": "This monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

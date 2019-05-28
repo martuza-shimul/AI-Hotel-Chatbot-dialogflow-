@@ -1,0 +1,28 @@
+[
+  {
+    "id": "de6c6f21-f0d7-414b-9be2-ed57737a1471",
+    "data": [
+      {
+        "text": "Tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "945c842e-833c-4bfa-890c-0922951a79b2",
+    "data": [
+      {
+        "text": "Today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

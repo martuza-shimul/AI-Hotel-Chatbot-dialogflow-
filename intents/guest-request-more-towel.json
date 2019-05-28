@@ -1,0 +1,58 @@
+{
+  "id": "2cbe803a-d545-47dc-b280-f94eb91123a4",
+  "name": "guest-request-more-towel",
+  "auto": true,
+  "contexts": [
+    "guest-request"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gr-towel",
+      "affectedContexts": [
+        {
+          "name": "gr-towel-quantity",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a6499b91-69a4-4ee5-81e4-f71da20c7cb2",
+          "required": false,
+          "dataType": "@guest-request",
+          "name": "guest-request",
+          "value": "$guest-request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "How many towels do you want?",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How many towels do you want?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

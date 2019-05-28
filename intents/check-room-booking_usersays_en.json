@@ -1,0 +1,117 @@
+[
+  {
+    "id": "48ffbac9-7a18-4f3f-b8a4-8660ad9ebbbb",
+    "data": [
+      {
+        "text": "may I get a ",
+        "userDefined": false
+      },
+      {
+        "text": "beautiful",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b989304b-cc66-4c3d-a58f-78e60389a2a5",
+    "data": [
+      {
+        "text": "I want to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "Luxury",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "43d500d0-b6f9-4f25-930c-68d633eb60e2",
+    "data": [
+      {
+        "text": "I want to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "low-cost",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": true
+      },
+      {
+        "text": " room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "190d10b0-76a6-4458-89d5-0e118b71095a",
+    "data": [
+      {
+        "text": "Queen suite",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "42c02677-bb64-4eef-8566-a6482ccfa8b1",
+    "data": [
+      {
+        "text": "Luxury",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3b1a8413-6ab1-46e1-8336-c2611507d5e9",
+    "data": [
+      {
+        "text": "deluxe",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c4af54bb-8e1d-4035-957b-52f652a2e7dd",
+    "data": [
+      {
+        "text": "economy",
+        "alias": "name",
+        "meta": "@hotel-room-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

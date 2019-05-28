@@ -1,0 +1,70 @@
+{
+  "id": "876997de-ce8e-4a42-bfca-9eade3795662",
+  "parentId": "3698effa-ab29-4c35-819c-3dd308180798",
+  "rootParentId": "3698effa-ab29-4c35-819c-3dd308180798",
+  "name": "excursion-reservation-taxi - date",
+  "auto": true,
+  "contexts": [
+    "excursion-taxi",
+    "excursion-reservation-taxi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "excursion-reservation-taxi.excursion-reservation-taxi-details",
+      "affectedContexts": [
+        {
+          "name": "er-taxi-time",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "excursion-reservation-taxi-date-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c2d0f777-48fd-428d-abbf-dd1e0e298961",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Can you help me with the time?",
+          "replies": [
+            "7 AM",
+            "8 AM",
+            "9 AM",
+            "10 AM",
+            "11 AM",
+            "2 PM",
+            "3 PM",
+            "5 PM",
+            "8 PM"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

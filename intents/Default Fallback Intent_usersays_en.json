@@ -1,0 +1,57 @@
+[
+  {
+    "id": "2bb8928e-ca2e-4af3-9c03-f4f5447bb371",
+    "data": [
+      {
+        "text": "talk to a human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6ba3cad1-1a51-4a49-96db-5a326fb881ee",
+    "data": [
+      {
+        "text": "live person transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a573dad-5b9c-422f-81b6-7cb1e7d098a9",
+    "data": [
+      {
+        "text": "talk to human",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9788e4e2-132a-4d66-8f39-540a258ba39a",
+    "data": [
+      {
+        "text": "talk to a team member",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "116351ee-ff55-4dcd-9dea-ff7c49d8cd87",
+    "data": [
+      {
+        "text": "Live agent transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "97fa85da-86a7-48f3-a387-29b66bf5e52d",
+    "data": [
+      {
+        "text": "check-out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e8219664-39d6-4e14-8410-0d0382d48add",
+    "data": [
+      {
+        "text": "check out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b630bc85-eeff-4688-98af-b89c066fed54",
+    "data": [
+      {
+        "text": "Check-out time?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

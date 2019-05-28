@@ -1,0 +1,101 @@
+[
+  {
+    "id": "37f093ac-a35a-4196-a2aa-c24d6a4a6b92",
+    "data": [
+      {
+        "text": "may I see the rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "59e271ee-9727-4962-9d98-dea865aa3205",
+    "data": [
+      {
+        "text": "Check rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "10f0b5dd-1ae3-4f17-83e5-76f94e1be07a",
+    "data": [
+      {
+        "text": "can you show me the rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "45c837c7-e467-40c1-b0d9-46403c2e77e5",
+    "data": [
+      {
+        "text": "available rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ec1f489f-03dc-4834-b920-33557d25884b",
+    "data": [
+      {
+        "text": "show rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f6ec8355-454f-4ae3-a0f4-86618e00e4d7",
+    "data": [
+      {
+        "text": "I want to check the rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "715c90c9-83b9-41b4-8396-b7f0fd6d5ef4",
+    "data": [
+      {
+        "text": "please show me the rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "979b755c-1c8d-461d-8031-74af50adddd7",
+    "data": [
+      {
+        "text": "rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2af72c22-4e1a-4f90-a681-89f51f48b411",
+    "data": [
+      {
+        "text": "can I check the rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

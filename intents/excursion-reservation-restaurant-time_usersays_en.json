@@ -1,0 +1,41 @@
+[
+  {
+    "id": "b91c5ee1-a2b9-4556-b236-fb0f2feb7f43",
+    "data": [
+      {
+        "text": "6 PM",
+        "alias": "res-book-time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5459fa3b-909c-484b-9de6-278ff1a8a5de",
+    "data": [
+      {
+        "text": "5 PM",
+        "alias": "res-book-time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9e89ad23-3cd5-45e3-829b-e312f6fad3df",
+    "data": [
+      {
+        "text": "9 AM",
+        "alias": "res-book-time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

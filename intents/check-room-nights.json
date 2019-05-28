@@ -1,0 +1,60 @@
+{
+  "id": "3df37544-f34d-43b0-aff8-0a084d2b66b6",
+  "name": "check-room-nights",
+  "auto": true,
+  "contexts": [
+    "cr-night"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "cr-night",
+      "affectedContexts": [
+        {
+          "name": "cr-people",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e57e11c3-9998-4efa-ac36-4f4638252719",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "For how many adults?",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

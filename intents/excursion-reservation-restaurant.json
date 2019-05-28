@@ -1,0 +1,79 @@
+{
+  "id": "a647b6b3-ce45-4e09-b985-020b35d77228",
+  "name": "excursion-reservation-restaurant",
+  "auto": true,
+  "contexts": [
+    "excursion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "er-restaurant",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Spice Circle",
+          "subtitle": "Indian Restaurant",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/02/e4/63/18/spice-circle-indian-restaurant.jpg",
+          "buttons": [
+            {
+              "text": "Reserve a Table",
+              "postback": "reserve a table"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Peach Blossoms",
+          "subtitle": "Chinese \u0026 Thai",
+          "imageUrl": "http://retaildesignblog.net/wp-content/uploads/2012/07/Peach-Blossoms-Restaurant-JP-Concept-Singapore.jpg",
+          "buttons": [
+            {
+              "text": "Reserve a Table",
+              "postback": "Reserve a table"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Crimpson Cup",
+          "subtitle": "Cafe",
+          "imageUrl": "https://assets.entrepreneur.com/content/3x2/2000/20160607153126-coffee-cafe-breaks-food-eating-espresso-restaurant-relaxation.jpeg?width\u003d700\u0026crop\u003d2:1",
+          "buttons": [
+            {
+              "text": "Reserve a Table",
+              "postback": "reserve a table"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You can check-in below Restaurants"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

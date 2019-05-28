@@ -1,0 +1,59 @@
+{
+  "id": "852e6935-0bc1-4ee6-b1fb-2c50c6651ce0",
+  "name": "guest-request-wake-up-call",
+  "auto": true,
+  "contexts": [
+    "guest-request"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gr-wake-up-call",
+      "affectedContexts": [
+        {
+          "name": "gr-wake-up-call-time",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d90c0c0f-e3ca-4cb0-ad07-00129d9408ac",
+          "required": false,
+          "dataType": "@guest-request",
+          "name": "guest-request",
+          "value": "$guest-request",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "When do you want the wake up call?",
+          "replies": [
+            "4 AM",
+            "5 AM",
+            "6 AM",
+            "7 AM",
+            "8 AM",
+            "9 AM"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "When do you want the wake up call?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

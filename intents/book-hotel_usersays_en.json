@@ -1,0 +1,123 @@
+[
+  {
+    "id": "87d3f672-e463-4852-886f-3616ceeb77c0",
+    "data": [
+      {
+        "text": "book room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "94316237-50d0-43ea-b2f1-21b72189039d",
+    "data": [
+      {
+        "text": "book an hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "600c58c7-2ad6-4ba4-8d9e-689973c628e5",
+    "data": [
+      {
+        "text": "can I book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3e2c79d0-3741-4ad0-a6a7-c8aa9805cd60",
+    "data": [
+      {
+        "text": "can I get a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a77ba9a-880e-48fa-957d-3a326ce028d0",
+    "data": [
+      {
+        "text": "may I get a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb3e4c1d-afc0-427f-a2fa-52d6a97cd2f8",
+    "data": [
+      {
+        "text": "book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5158734b-d9de-45d2-95bb-aaf4419f5bd6",
+    "data": [
+      {
+        "text": "I want to book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "556b2985-b05c-4f66-9d0f-6a6152563f62",
+    "data": [
+      {
+        "text": "may I book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3b050a23-80f8-4d50-a5af-09d3afc168be",
+    "data": [
+      {
+        "text": "hotel booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "191cc343-71ce-4e26-804d-655232f6b553",
+    "data": [
+      {
+        "text": "book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "33d99781-c127-42d0-bb02-d66a27102fee",
+    "data": [
+      {
+        "text": "book",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

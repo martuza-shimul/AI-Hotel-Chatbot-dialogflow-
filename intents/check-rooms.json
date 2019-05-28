@@ -1,0 +1,112 @@
+{
+  "id": "34239666-0ef3-4b2a-9965-5410948becaa",
+  "name": "check-rooms",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "cr-rome-types",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "cr-room-details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Economy",
+          "subtitle": "£100-200/Night",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/01/80/54/3f/economy-room.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Economy"
+            },
+            {
+              "text": "View Details",
+              "postback": "economy details"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Deluxe",
+          "subtitle": "£250-400/Night",
+          "imageUrl": "https://www.nusaduahotel.com/wp-content/uploads/2018/10/deluxe-room.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Deluxe"
+            },
+            {
+              "text": "View Details",
+              "postback": "deluxe details"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Luxury",
+          "subtitle": "£450-1000/Night",
+          "imageUrl": "https://www.royal-hawaiian.com/wp-content/uploads/sites/16/2017/10/lux376gr-191822-Royal-Hawaiian-Mailani-Tower-Oceanfront-Suite-Med-1024x683.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Luxury"
+            },
+            {
+              "text": "View Details",
+              "postback": "luxury details"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Queen Suite",
+          "subtitle": "£650-1200/Night",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0b/1f/22/6c/two-bedroom-queen-suite.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Queen suite"
+            },
+            {
+              "text": "View Details",
+              "postback": "queen suite details"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We offer four types of room"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

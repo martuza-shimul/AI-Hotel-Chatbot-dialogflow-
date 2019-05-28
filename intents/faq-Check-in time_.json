@@ -1,0 +1,40 @@
+{
+  "id": "c1190302-c4a5-4d77-99f5-248433c2ce5b",
+  "name": "faq-Check-in time?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Booking",
+            "Check rooms",
+            "Nearby Places"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "As a rough guide, the check-in time is after 12 a.m. Let us know your arrival time in case you schedule and early check in we‘ll do our best to have your room available."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

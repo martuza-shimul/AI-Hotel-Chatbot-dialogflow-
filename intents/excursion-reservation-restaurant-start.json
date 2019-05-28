@@ -1,0 +1,47 @@
+{
+  "id": "c728e4e3-82fa-4c4b-8379-def90fbe2784",
+  "name": "excursion-reservation-restaurant-start",
+  "auto": true,
+  "contexts": [
+    "er-restaurant"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "er-restaurant-confirm",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "We need some information to complete the process. Please type START when you\u0027re ready.",
+          "replies": [
+            "START",
+            "Not Now"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We need some information to complete the process. Please type START when you\u0027re ready."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

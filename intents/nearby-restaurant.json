@@ -1,0 +1,42 @@
+{
+  "id": "dfb3e873-fddf-40cc-9511-0c9664de74ff",
+  "name": "nearby-restaurant",
+  "auto": true,
+  "contexts": [
+    "nearby"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You may like to check",
+          "replies": [
+            "Coffee",
+            "Tourist Attraction",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The Harrison - 0.2 Km\n\nEuro Tandoori - 0.2 Km\n\nCasa Mamma - 0.3 Km\n\nIndian Lounge - King\u0027s Cross - 0.3 Km\n\nChop Chop - 0.3 Km"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "67675cce-4adc-407d-9f83-ce3ddd84e604",
+    "data": [
+      {
+        "text": "table book",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f80b27c0-3f2c-42ef-851b-dcb8c87627b1",
+    "data": [
+      {
+        "text": "table reserve",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cc45e82e-c93d-451d-84d4-7af58ccc4d62",
+    "data": [
+      {
+        "text": "book table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "de250a7f-dc17-4e5b-8a39-8d240fafb900",
+    "data": [
+      {
+        "text": "book a table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9b1c7dd2-33a4-480b-a594-7c8fface0bea",
+    "data": [
+      {
+        "text": "reserve table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2b2503ce-3739-4e72-8914-305abefa67fd",
+    "data": [
+      {
+        "text": "reserve a table",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

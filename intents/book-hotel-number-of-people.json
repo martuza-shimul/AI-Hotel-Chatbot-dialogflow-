@@ -1,0 +1,57 @@
+{
+  "id": "9c8f5b3a-2088-4016-8a75-098ef1933cfa",
+  "name": "book-hotel-number-of-people",
+  "auto": true,
+  "contexts": [
+    "bh-people"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bh-people",
+      "affectedContexts": [
+        {
+          "name": "bh-child",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f6b2ec10-1199-4f88-9a95-463b2a1db09a",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number-of-people",
+          "value": "$number-of-people",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "For how many Child?",
+          "replies": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "For how many Child?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

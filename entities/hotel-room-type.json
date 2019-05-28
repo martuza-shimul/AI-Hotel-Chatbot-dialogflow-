@@ -1,0 +1,9 @@
+{
+  "id": "9397a75e-e101-4db0-91f1-b1bb8a910dc8",
+  "name": "hotel-room-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

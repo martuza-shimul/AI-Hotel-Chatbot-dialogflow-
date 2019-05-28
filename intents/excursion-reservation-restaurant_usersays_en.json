@@ -1,0 +1,46 @@
+[
+  {
+    "id": "5894ffdb-7a97-4c3d-a627-3d8a60a14cda",
+    "data": [
+      {
+        "text": "restaurant reserve",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a5f85faa-c962-4f89-8eb9-55c78c6629a2",
+    "data": [
+      {
+        "text": "restaurant reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4f6bf5cb-41d8-479c-913c-37fbb96dcf11",
+    "data": [
+      {
+        "text": "restaurant booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "47bbeced-11f3-4afc-9812-501da9840985",
+    "data": [
+      {
+        "text": "restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

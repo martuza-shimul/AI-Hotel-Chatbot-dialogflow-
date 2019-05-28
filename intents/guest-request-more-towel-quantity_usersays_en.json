@@ -1,0 +1,54 @@
+[
+  {
+    "id": "79092a55-8949-4fbd-9408-cb10ed4e4729",
+    "data": [
+      {
+        "text": "4",
+        "alias": "towel-quantity",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5262e7bc-282f-4181-81e6-5c7af37f0db3",
+    "data": [
+      {
+        "text": "3",
+        "alias": "towel-quantity",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "391326f0-b151-4500-a482-5c243b519b53",
+    "data": [
+      {
+        "text": "2",
+        "alias": "towel-quantity",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8772d694-68c6-4be2-af81-e7349f36c80c",
+    "data": [
+      {
+        "text": "1",
+        "alias": "towel-quantity",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

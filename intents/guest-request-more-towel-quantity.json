@@ -1,0 +1,78 @@
+{
+  "id": "9fd30fc4-06df-467e-a4a5-f5ec1f415831",
+  "name": "guest-request-more-towel-quantity",
+  "auto": true,
+  "contexts": [
+    "gr-towel-quantity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gr-towel-quantity",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b9a67094-df48-45fc-a179-09a6cb98e443",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "towel-quantity",
+          "value": "$towel-quantity",
+          "isList": false
+        },
+        {
+          "id": "f81dc55a-69b3-43f8-8ab0-5918b1d1f012",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "room-number",
+          "value": "$room-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your room number?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "79af4520-3467-421c-b92b-e80943475310",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me your name to verify with register"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "Wake up calls"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!\n\nI\u0027ll send it to the Concierge and you\u0027ll get the towel in 30 minutes."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

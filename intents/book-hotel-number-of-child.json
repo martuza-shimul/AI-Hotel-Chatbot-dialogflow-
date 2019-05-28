@@ -1,0 +1,120 @@
+{
+  "id": "f9ee976e-68fa-4c56-9aa7-aeef4edab7c5",
+  "name": "book-hotel-number-of-child",
+  "auto": true,
+  "contexts": [
+    "bh-child"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "bh-child",
+      "affectedContexts": [
+        {
+          "name": "bh-room_type",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "39847930-c55c-442b-adcf-eb81924b9789",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number-of-child",
+          "value": "$number-of-child",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "We offer four types of room."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Book one to proceed"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Economy",
+          "subtitle": "£100-200/Night",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/01/80/54/3f/economy-room.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "economy"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Deluxe",
+          "subtitle": "£250-400/Night",
+          "imageUrl": "https://www.nusaduahotel.com/wp-content/uploads/2018/10/deluxe-room.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Deluxe"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Luxury",
+          "subtitle": "£450-1000/Night",
+          "imageUrl": "https://www.royal-hawaiian.com/wp-content/uploads/sites/16/2017/10/lux376gr-191822-Royal-Hawaiian-Mailani-Tower-Oceanfront-Suite-Med-1024x683.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Luxury"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Queen Suite",
+          "subtitle": "£650-1200/Night",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0b/1f/22/6c/two-bedroom-queen-suite.jpg",
+          "buttons": [
+            {
+              "text": "Book Now",
+              "postback": "Queen Suite"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We offer four types of room.\n\nEconomy\n\nDeluxe\n\nLuxury\n\nQueens Suite"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Type one to proceed"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

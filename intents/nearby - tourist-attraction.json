@@ -1,0 +1,64 @@
+{
+  "id": "d8479393-3ab2-499d-a927-4f7860859c7f",
+  "name": "nearby - tourist-attraction",
+  "auto": true,
+  "contexts": [
+    "nearby"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nearby.nearby-tourist-attraction",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "You may like to check",
+          "replies": [
+            "Restaurant",
+            "Coffee",
+            "RESET"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some nearby Tourist Attraction"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Nomadic Community Garden - 2.8 KM"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Three Mills Green \u0026 Three Mills Island - 3 KM"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The Jack The Ripper Experience - 3.7 KM"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Tower of London-Lanthorn Tower - 4.7 KM"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": []
+}

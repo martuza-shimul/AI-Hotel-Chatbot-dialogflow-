@@ -1,0 +1,9 @@
+{
+  "id": "b3ecf60a-174b-4476-9a69-c3775580af77",
+  "name": "theater-shows",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

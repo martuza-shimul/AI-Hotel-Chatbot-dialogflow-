@@ -1,0 +1,24 @@
+[
+  {
+    "id": "8de4d5e3-2d0d-4c8d-9fa8-09d701a7d8fd",
+    "data": [
+      {
+        "text": "Do children stay for free? (Please note: one child only per room)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f0d23cb1-8dde-4953-ac36-30ecd13768ac",
+    "data": [
+      {
+        "text": "Do children stay for free?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

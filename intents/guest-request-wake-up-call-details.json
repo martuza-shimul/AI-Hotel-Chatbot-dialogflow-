@@ -1,0 +1,78 @@
+{
+  "id": "0dcb55d8-503b-4187-a753-431b8ee5459a",
+  "name": "guest-request-wake-up-call-details",
+  "auto": true,
+  "contexts": [
+    "gr-wake-up-call-time"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "gr-wake-up-call-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2850a8e6-1cc5-4264-995b-3674762f6daa",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        },
+        {
+          "id": "33950e67-1ff7-4d7d-a618-706bcb0fca73",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "room-number",
+          "value": "$room-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you help me with your room number, Please?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b7475798-225f-44c9-9734-86b6f8a4e32e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Finally, tell me your name to verify with the register"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Is there anything I can help you with?",
+          "replies": [
+            "More towels"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Cool!\n\nI\u0027ll send it to the Concierge and you\u0027ll get the wake up call on time"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
